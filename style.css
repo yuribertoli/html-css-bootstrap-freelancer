@@ -1,10 +1,14 @@
 [class*="container"] {
-    min-height: 100px;
+    height: 100px;
     background-color: aqua;
 }
 
 .row {
-    min-height: 100px;
+    height: 100px;
     background-color: aquamarine;
 }
 
+[class*="col"] {
+    height: 75px;
+    background-color: beige;
+}
