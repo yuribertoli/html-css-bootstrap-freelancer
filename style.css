@@ -1,14 +1,23 @@
 [class*="container"] {
-    height: 100px;
+    min-height: 100px;
     background-color: aqua;
 }
 
 .row {
-    height: 100px;
+    min-height: 100px;
     background-color: aquamarine;
 }
 
 [class*="col"] {
     height: 75px;
     background-color: beige;
+}
+
+#jumbotron img {
+    width: 70%;
+    height: auto;
+}
+
+hr {
+    flex-basis: 50%;
 }
