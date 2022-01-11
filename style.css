@@ -1,9 +1,13 @@
-header {
+header, .second-footer {
     background-color: rgba(44,62,80,255);
 }
 
-#jumbotron, .bckgrd-green {
+#jumbotron, .bckgrd-green, .btn.btn-primary {
     background-color: rgba(26,188,156,255);
+}
+
+.first-footer {
+    background-color: rgba(58,84,109,255);
 }
 
 #jumbotron img {
@@ -15,4 +19,10 @@ hr {
     flex-basis: 50%;
     border: 3px solid;
     opacity: 1;
+}
+
+i.d-block {
+    height: 27px;
+    width: 30px;
+    line-height: 24px;
 }
