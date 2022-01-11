@@ -1,16 +1,9 @@
-[class*="container"] {
-    min-height: 100px;
-    background-color: aqua;
+header {
+    background-color: rgba(44,62,80,255);
 }
 
-.row {
-    min-height: 100px;
-    background-color: aquamarine;
-}
-
-[class*="col"] {
-    height: 75px;
-    background-color: beige;
+#jumbotron, .bckgrd-green {
+    background-color: rgba(26,188,156,255);
 }
 
 #jumbotron img {
@@ -20,4 +13,6 @@
 
 hr {
     flex-basis: 50%;
+    border: 3px solid;
+    opacity: 1;
 }
