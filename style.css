@@ -12,8 +12,13 @@ header, .second-footer {
 
 #jumbotron img {
     width: 70%;
+    max-width: 300px;
     height: auto;
 }
+
+.nounderline {
+    text-decoration: none;
+  }
 
 hr {
     flex-basis: 50%;
