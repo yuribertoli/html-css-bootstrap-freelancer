@@ -10,10 +10,18 @@ header, .second-footer {
     background-color: rgba(58,84,109,255);
 }
 
+#jumbotron {
+    padding-top: 80px;
+}
+
 #jumbotron img {
     width: 70%;
     max-width: 300px;
     height: auto;
+}
+
+main img {
+    max-width: 400px;
 }
 
 .nounderline {
